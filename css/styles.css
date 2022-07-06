@@ -36,7 +36,7 @@ svg{
 @media only screen and (max-width: 500px) {
   .navbar-brand {
   margin-left: 5%;
-  margin-right: 20%;
+  margin-right: 10%;
   }
 }
 
@@ -133,6 +133,14 @@ text-align: center;
 #about-section{
   padding-right: 15%;
   padding-left: 15%;
+}
+}
+
+@media only screen and (max-width: 500px) {
+  #about-section{
+  padding-right: 10%;
+  padding-left: 10%;
+    height: 450px;
 }
 }
 
