@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Slabo 27px', serif;
+  font-size: 20px;
+}
+
+h5 {
+  font-weight: bold;
+}
+
+.btn {
+  background-color: #9FC088;
+  border-radius: 10px;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.beverage {
+  height: 250px;
+  width: 250px;
+  padding-top: 15%;
+  padding-left: 10%;
+  padding-bottom: 15%;
+}
+
+.card {
+  text-align: center;
+  height: 500px;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px 3px #9FC088;
+  margin-left: 70px;
+  margin-right: 50px;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+@media only screen and (max-width: 500px) {
+  .card {
+    margin-left: 40px;
+    margin-bottom: 20px;
+  }
+  .beverage {
+    padding-top: 10%;
+    padding-left: 3%;
+    padding-bottom: 10%;
+  }
+}

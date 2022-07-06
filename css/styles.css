@@ -1,0 +1,189 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Slabo 27px', serif;
+  font-size: 20px;
+  overflow-x: hidden;
+}
+
+p {
+  padding-left: 20px;
+}
+
+svg{
+  height: 30px;
+  width: 30px;
+}
+
+/* navbar */
+.navbar {
+  width: 100%;
+  color: #9FC088;
+  background-color: #9FC088;
+}
+
+.navbar-brand {
+  font-family: 'Smooch', cursive;
+  font-size: 5rem;
+  font-weight: bold;
+  margin-right: 35%;
+  margin-left: 10%;
+  color: #fff;
+}
+
+@media only screen and (max-width: 500px) {
+  .navbar-brand {
+  margin-left: 5%;
+  margin-right: 20%;
+  }
+}
+
+.nav-item {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.nav-link:hover {
+  color: #fff;
+}
+
+.navbar-brand:hover {
+  color: #fff;
+}
+
+.dropdown-item:hover {
+  background-color: #9FC088;
+  color: #fff;
+}
+
+/* welcome */
+#welcome-section {
+  text-align: center;
+  height: 600px;
+  margin-bottom: 3%;
+  padding-top: 8%;
+}
+
+@media only screen and (max-width: 1000px) {
+  .dropdown-menu {
+    width: 100px;
+  }
+  #welcome-section{
+    height: 400px;
+  }
+  h4{
+    font-size: 18px;
+    margin-top:3%;
+  }
+}
+
+.welcome-img {
+  height: 250px;
+  width: 250px;
+}
+
+h4 {
+  padding-top: 3%;
+}
+
+/* Services */
+#services-section {
+  height: 500px;
+background-color: #9FC088;
+  text-align: center;
+}
+
+.service-img {
+  height: 200px;
+  width: 200px;
+margin-top: 20%;
+  box-shadow: 2px 2px 5px 3px #fff;
+}
+
+.description {
+  padding-left: 20%;
+  padding-right: 20%;
+  font-size: 15px;
+}
+
+h3 {
+  padding-top: 15px;
+}
+
+@media only screen and (max-width: 750px) {
+#services-section{
+  height: 1200px;
+}
+.service-img{
+  margin-top: 5%;
+}
+}
+
+/* About */
+#about-section {
+  height: 400px;
+padding-left: 30%;
+padding-right: 30%;
+text-align: center;
+}
+
+@media only screen and (max-width: 1000px) {
+#about-section{
+  padding-right: 15%;
+  padding-left: 15%;
+}
+}
+
+h2{
+  padding-top: 13%;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.about{
+  font-size: 18px;
+  padding-bottom: 9%;
+}
+
+/* Customers */
+#customers-section{
+    height: 500px;
+    background-color: #9FC088;
+    text-align: center;
+}
+@media only screen and (max-width: 1000px) {
+#customers-section{
+height: 400px;
+}
+}
+.customer-img{
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  margin-top: 1%;
+}
+
+h5{
+  padding-top: 2%;
+}
+
+h1{
+  font-weight: bold;
+  padding-top: 4%;
+}
+
+/* contact */
+.socials{
+  padding-left: 44%;
+}
+.icon{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+@media only screen and (max-width: 1000px) {
+  .socials {
+  padding-left: 8%;
+  }
+}
